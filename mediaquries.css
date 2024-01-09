@@ -1,0 +1,61 @@
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap');
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* For screens with a width of 576px or more */
+
+@media (min-width: 576px) {
+    .display-5 {
+        color: red;
+        font-size: 1.3rem !important;
+        /* Added font size for this media query */
+    }
+}
+
+
+/* For screens with a width of 768px or more */
+
+@media (min-width: 768px) {
+    .display-5 {
+        color: firebrick;
+        font-size: 1.8rem !important;
+        /* Added font size for this media query */
+    }
+}
+
+
+/* For screens with a width of 992px or more */
+
+@media (min-width: 992px) {
+    .display-5 {
+        color: darkblue;
+        font-size: 2.5rem !important;
+        /* Added font size for this media query */
+    }
+}
+
+
+/* For screens with a width of 1200px or more */
+
+@media (min-width: 1200px) {
+    .display-5 {
+        color: rebeccapurple;
+        font-size: 3rem !important;
+        /* Added font size for this media query */
+    }
+}
+
+
+/* For screens with a width of 1400px or more */
+
+@media (min-width: 1400px) {
+    .display-5 {
+        color: green;
+        font-size: 3rem !important;
+        /* Added font size for this media query */
+    }
+}
