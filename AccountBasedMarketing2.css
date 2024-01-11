@@ -1,0 +1,12 @@
+.myColorDiv {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.content {
+    padding: 20px;
+}
+
+.text-start li {
+    margin-bottom: 8px;
+}

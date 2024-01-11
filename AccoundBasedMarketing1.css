@@ -1,0 +1,15 @@
+ /* Set a background image for the entire page */
+ 
+ .maiancontainer {
+     background-image: url('https://4kwallpapers.com/images/wallpapers/colorful-blue-pink-5k-8k-3840x1080-900.jpg');
+     background-size: cover;
+     background-position: bottom;
+     background-repeat: no-repeat;
+     height: 50vh;
+     /* Ensure the background covers the entire viewport height */
+ }
+ /* Add spacing and padding for better readability */
+ 
+ .content {
+     /* Set text color to white or a color that contrasts well with your background */
+ }
