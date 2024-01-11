@@ -1,0 +1,63 @@
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    background-color: yellow;
+    padding: 50px;
+    font-size: 20px;
+    width: 600px;
+    height: 300px;
+}
+
+.position-relative {
+    z-index: -1;
+}
+
+.container-fluid.bgImg {
+    position: relative;
+    background-image: url('https://w7.pngwing.com/pngs/629/243/png-transparent-blue-curve-lines-blue-curve-line.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    /* Adjust text color as needed */
+}
+
+.container-fluid.bgImg img {
+    display: none;
+    /* Hide the img element when the background image is applied */
+}
+
+.container-fluid.bgImg .container {
+    z-index: 1;
+    /* Ensure content appears above the background image */
+}
+
+.container-fluid.bgImg::before {
+    content: '';
+    /* Create a pseudo-element to act as an overlay */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    /* Add a semi-transparent overlay for better text readability */
+    z-index: 0;
+}
+
+@media (max-width: 576px) {
+    .contactHeading {
+        margin-top: 350px;
+    }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
